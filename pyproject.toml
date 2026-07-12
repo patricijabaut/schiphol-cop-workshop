@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schiphol-ops"
+version = "0.1.0"
+description = "Schiphol airside operations CLI — workshop codebase for the 'Jira to PR' hands-on session."
+requires-python = ">=3.11"
+authors = [{ name = "Martijn Scholten" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+schiphol-ops = "schiphol_ops.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

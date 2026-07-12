@@ -1,0 +1,9 @@
+[
+  { "code": "B16", "pier": "B", "schengen": true, "wide_body": false },
+  { "code": "B22", "pier": "B", "schengen": true, "wide_body": false },
+  { "code": "D02", "pier": "D", "schengen": false, "wide_body": false },
+  { "code": "D04", "pier": "D", "schengen": false, "wide_body": false },
+  { "code": "E18", "pier": "E", "schengen": false, "wide_body": true },
+  { "code": "E19", "pier": "E", "schengen": false, "wide_body": true },
+  { "code": "H01", "pier": "H", "schengen": true, "wide_body": false }
+]

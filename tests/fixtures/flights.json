@@ -1,0 +1,79 @@
+[
+  {
+    "number": "KL1001",
+    "airline": "KL",
+    "direction": "departure",
+    "city": "London (LHR)",
+    "terminal": "D",
+    "gate": "D04",
+    "scheduled": "06:25",
+    "delay_minutes": 0,
+    "status": "on-time"
+  },
+  {
+    "number": "HV5821",
+    "airline": "HV",
+    "direction": "departure",
+    "city": "Barcelona (BCN)",
+    "terminal": "H",
+    "gate": "H01",
+    "scheduled": "06:40",
+    "delay_minutes": 0,
+    "status": "departed"
+  },
+  {
+    "number": "KL0643",
+    "airline": "KL",
+    "direction": "departure",
+    "city": "New York (JFK)",
+    "terminal": "E",
+    "gate": "E18",
+    "scheduled": "07:10",
+    "delay_minutes": 25,
+    "status": "delayed"
+  },
+  {
+    "number": "LH0989",
+    "airline": "LH",
+    "direction": "departure",
+    "city": "Frankfurt (FRA)",
+    "terminal": "B",
+    "gate": "B16",
+    "scheduled": "07:30",
+    "delay_minutes": 0,
+    "status": "boarding"
+  },
+  {
+    "number": "KL1002",
+    "airline": "KL",
+    "direction": "arrival",
+    "city": "London (LHR)",
+    "terminal": "D",
+    "gate": "D02",
+    "scheduled": "09:05",
+    "delay_minutes": 0,
+    "status": "landed"
+  },
+  {
+    "number": "DL0046",
+    "airline": "DL",
+    "direction": "arrival",
+    "city": "New York (JFK)",
+    "terminal": "E",
+    "gate": "E19",
+    "scheduled": "07:25",
+    "delay_minutes": 0,
+    "status": "landed"
+  },
+  {
+    "number": "AF1240",
+    "airline": "AF",
+    "direction": "arrival",
+    "city": "Paris (CDG)",
+    "terminal": "B",
+    "gate": "B22",
+    "scheduled": "11:30",
+    "delay_minutes": 0,
+    "status": "expected"
+  }
+]

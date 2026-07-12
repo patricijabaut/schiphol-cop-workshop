@@ -1,0 +1,242 @@
+[
+  {
+    "code": "B13",
+    "pier": "B",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "B16",
+    "pier": "B",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "B18",
+    "pier": "B",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "B22",
+    "pier": "B",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "B24",
+    "pier": "B",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "B27",
+    "pier": "B",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C03",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C05",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C06",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C08",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C09",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C10",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C11",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C14",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "C16",
+    "pier": "C",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "D02",
+    "pier": "D",
+    "schengen": false,
+    "wide_body": false
+  },
+  {
+    "code": "D04",
+    "pier": "D",
+    "schengen": false,
+    "wide_body": false
+  },
+  {
+    "code": "D06",
+    "pier": "D",
+    "schengen": false,
+    "wide_body": false
+  },
+  {
+    "code": "D07",
+    "pier": "D",
+    "schengen": false,
+    "wide_body": false
+  },
+  {
+    "code": "D14",
+    "pier": "D",
+    "schengen": false,
+    "wide_body": false
+  },
+  {
+    "code": "D59",
+    "pier": "D",
+    "schengen": false,
+    "wide_body": false
+  },
+  {
+    "code": "E17",
+    "pier": "E",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "E18",
+    "pier": "E",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "E19",
+    "pier": "E",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "E20",
+    "pier": "E",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "E22",
+    "pier": "E",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "F02",
+    "pier": "F",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "F03",
+    "pier": "F",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "F05",
+    "pier": "F",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "F07",
+    "pier": "F",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "F09",
+    "pier": "F",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "G03",
+    "pier": "G",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "G07",
+    "pier": "G",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "G09",
+    "pier": "G",
+    "schengen": false,
+    "wide_body": true
+  },
+  {
+    "code": "H01",
+    "pier": "H",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "H02",
+    "pier": "H",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "H03",
+    "pier": "H",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "H04",
+    "pier": "H",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "H06",
+    "pier": "H",
+    "schengen": true,
+    "wide_body": false
+  },
+  {
+    "code": "H07",
+    "pier": "H",
+    "schengen": true,
+    "wide_body": false
+  }
+]
