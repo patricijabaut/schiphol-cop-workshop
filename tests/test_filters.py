@@ -47,6 +47,30 @@ def test_by_city_no_match_returns_empty_list(sample_flights):
     assert by_city(sample_flights, "Atlantis (ATL)") == []
 
 
+# Regression tests for VQ-2262: city filter was exact-match only
+def test_by_city_is_case_insensitive(sample_flights):
+    # "london" (lowercase) should match flights with city "London (LHR)"
+    matches = by_city(sample_flights, "london")
+    assert {f.number for f in matches} == {"KL1001", "KL1002"}
+
+
+def test_by_city_matches_partial_name(sample_flights):
+    # "lon" should match all London flights regardless of airport code suffix
+    matches = by_city(sample_flights, "lon")
+    assert {f.number for f in matches} == {"KL1001", "KL1002"}
+
+
+def test_by_city_filters_arrivals_by_origin(sample_flights):
+    # --origin on arrivals uses the same code path; "new york" should find DL0046
+    matches = apply_filters(sample_flights, direction=Direction.ARRIVAL, city="new york")
+    assert {f.number for f in matches} == {"DL0046"}
+
+
+def test_by_city_wrong_airport_code_does_not_match(sample_flights):
+    # A city with a different airport code suffix must not match another airport
+    assert by_city(sample_flights, "London (GHE)") == []
+
+
 def test_apply_filters_combines_criteria(sample_flights):
     result = apply_filters(
         sample_flights,

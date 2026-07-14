@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from schiphol_ops.models import Direction, Flight, Status
 
 
@@ -20,7 +22,8 @@ def by_airline(flights: list[Flight], airline: str) -> list[Flight]:
 
 
 def by_city(flights: list[Flight], city: str) -> list[Flight]:
-    return [f for f in flights if f.city == city]
+    pattern = re.compile(r"\b" + re.escape(city), re.IGNORECASE)
+    return [f for f in flights if pattern.search(f.city)]
 
 
 def apply_filters(
