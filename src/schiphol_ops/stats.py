@@ -25,10 +25,7 @@ def summarize(flights: list[Flight]) -> Summary:
     delayed = [f for f in flights if f.is_delayed]
     cancelled = [f for f in flights if f.is_cancelled]
     on_time = len(flights) - len(delayed)
-    if flights:
-        avg_delay = round(sum(f.delay_minutes for f in flights) / len(flights))
-    else:
-        avg_delay = 0
+    avg_delay = round(sum(f.delay_minutes for f in delayed) / len(delayed)) if delayed else 0
     return Summary(
         total=len(flights),
         on_time=on_time,
