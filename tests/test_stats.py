@@ -52,6 +52,25 @@ def test_summarize_empty_list():
     assert summary.on_time_pct == 0
 
 
+def test_avg_delay_uses_only_delayed_flights_not_all():
+    # VQ-2279: avg_delay was divided by len(flights) instead of len(delayed)
+    flights = [
+        make_flight(number="KL0001"),  # on-time, 0 delay
+        make_flight(number="KL0002"),  # on-time, 0 delay
+        make_flight(number="KL0003", delay_minutes=30, status=Status.DELAYED),
+    ]
+    assert summarize(flights).avg_delay == 30
+
+
+def test_avg_delay_is_zero_when_no_delayed_flights():
+    # VQ-2279: guard for zero delayed flights
+    flights = [
+        make_flight(number="KL0001"),
+        make_flight(number="KL0002", status=Status.CANCELLED),
+    ]
+    assert summarize(flights).avg_delay == 0
+
+
 def test_grouped_summaries_by_airline(sample_flights):
     groups = grouped_summaries(sample_flights, "airline")
     assert set(groups) == {"KL", "HV", "DL"}
