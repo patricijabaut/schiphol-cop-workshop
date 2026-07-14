@@ -17,3 +17,4 @@ Both engineers and agents should read this index before making non-trivial chang
 | [0005](./0005-jira-keyed-git-workflow.md)           | Jira-keyed branches, commits, and PR titles          | Accepted |
 | [0006](./0006-subcommand-cli.md)                    | Single binary with argparse subcommands              | Accepted |
 | [0007](./0007-repo-shipped-agent-skills.md)         | Ship team rituals as agent skills in the repo        | Accepted |
+| [0008](./0008-city-filter-word-boundary-matching.md) | City filter uses case-insensitive word-boundary matching | Accepted |
